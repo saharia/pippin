@@ -1,0 +1,29 @@
+{
+  "name": "nodeexp",
+  "version": "1.0.0",
+  "description": "This is an small sample api",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --recursive --exit",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api",
+    "json",
+    "crud",
+    "restful"
+  ],
+  "author": "Bright",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^8.2.0",
+    "nodemon": "^2.0.6",
+    "supertest": "^5.0.0"
+  }
+}
